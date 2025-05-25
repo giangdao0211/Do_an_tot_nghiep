@@ -1,0 +1,70 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+@{
+    ViewData["title"] = "List Roles";
+}
+<h3 style="margin:15px">List Roles</h3>
+<a style="margin:15px" asp-action="Create" asp-controller="Role">Add Role</a>
+<table class="table" id="myTable">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Role Name</th>
+            <th scope="col">Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <td>@item.Name</td>
+                
+                <td style="display:flex">
+                    <a asp-action="Edit" class="button edit" asp-controller="Role" asp-route-Id="@item.Id">Edit</a>
+                    <a asp-action="Delete" class="button delete confirmDeletion" asp-controller="Role" asp-route-Id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<style>
+    .button {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .edit {
+        background-color: #f0ad4e;
+        color: white;
+    }
+
+    .delete {
+        background-color: #d9534f;
+        color: white;
+    }
+
+    .edit:hover {
+        background-color: #ec971f;
+    }
+
+    .delete:hover {
+        background-color: #c9302c;
+    }
+
+</style>
+@section Scripts {
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
+}
+

@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebApplication2",
+    "\\WebApplication2\\Areas",
+    "\\WebApplication2\\Areas\\Admin",
+    "\\WebApplication2\\Areas\\Admin\\Views",
+    "\\WebApplication2\\Areas\\Admin\\Views\\Coupon",
+    "\\WebApplication2\\Controllers",
+    "\\WebApplication2\\Models",
+    "\\WebApplication2\\Views",
+    "\\WebApplication2\\Views\\Shared",
+    "\\WebApplication2\\Views\\Shared\\Components",
+    "\\WebApplication2\\Views\\Shared\\Components\\Brands"
+  ],
+  "SelectedNode": "\\WebApplication2.sln",
+  "PreviewInSolutionExplorer": false
+}

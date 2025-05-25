@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["title"] = "Wishlist Product";
+}
+<h3 style="margin:15px">Wishlist Product</h3>
+
+<table class="table" id="myTable">
+    <thead>
+        <tr>
+            @* <th scope="col">Id</th> *@
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Price</th>
+            <th scope="col">Product Image</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var wishlist_product in Model)
+        {
+            <tr>
+                <th scope="row">@wishlist_product.Product.Name</th>
+                <td>@wishlist_product.Product.Price.ToString("N0") VNĐ</td>
+                <td><img src="~/media/products/@wishlist_product.Product.Image" width="120px" height="120px" /></td>
+                <td style="display:flex">
+                    <a asp-action="DeleteWishlist" class="button delete confirmDeletion" asp-controller="Product" asp-route-Id="@wishlist_product.Wishlists.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<style>
+    .button {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .edit {
+        background-color: #f0ad4e;
+        color: white;
+    }
+
+    .delete {
+        background-color: #d9534f;
+        color: white;
+    }
+
+    .edit:hover {
+        background-color: #ec971f;
+    }
+
+    .delete:hover {
+        background-color: #c9302c;
+    }
+
+</style>
+@section Scripts {
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
+}
+

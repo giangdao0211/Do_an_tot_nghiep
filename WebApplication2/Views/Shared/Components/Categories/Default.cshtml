@@ -1,0 +1,14 @@
+﻿@model IEnumerable<CategoryModel>
+
+@foreach(var item in Model)
+{
+    <div class="sidebar-widget-category">
+        <ul>
+            <li>
+                <a  class="selected m-0" asp-action="Index" asp-controller="Category" asp-route-Slug="@item.Slug">
+                    @item.Name
+                </a>
+            </li>
+        </ul>
+    </div>
+}

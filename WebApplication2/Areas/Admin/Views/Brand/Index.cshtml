@@ -1,0 +1,127 @@
+﻿@model IEnumerable<BrandModel>
+@{
+    ViewData["title"] = "Brand Listed";
+    Paginate pager = new Paginate();
+    int pageNo = 0;
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+}
+<h3 style="margin:15px">List Brands</h3>
+<a style="margin:15px" asp-action="Create" asp-controller="Brand">Add Brand</a>
+<table class="table" id="myTable">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Brand Name</th>
+            <th scope="col">Brand Description</th>
+            <th scope="col">Brand Slug</th>
+            <th scope="col">Brand Status</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.Id</th>
+                <td>@item.Name</td>
+                <td>@Html.Raw(@item.Description)</td>
+                <td>@item.Slug</td>
+                <td>
+                    @if (item.Status == 1)
+                    {
+                        <span class="text text-success">Hiển thị</span>
+                    }
+                    else
+                    {
+                        <span class="text text-danger">Ẩn</span>
+                    }
+                </td>
+                <td style="display:flex">
+                    <a asp-action="Edit" class="button edit" asp-controller="Brand" asp-route-Id="@item.Id">Edit</a>
+                    <a asp-action="Delete" class="button delete confirmDeletion" asp-controller="Brand" asp-route-Id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="container">
+    @if (pager.TotalPages > 0) //2 trang
+    {
+        <ul class="pagination justify-content-end">
+
+            @if (pager.CurrentPage > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-pg="1">First</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-pg="@(pager.CurrentPage - 1)">Previous</a>
+                </li>
+            }
+            @for (var pge = pager.StartPage; pge <= pager.EndPage; pge++) //1 = 1 <= 2
+            {
+                <li class="page-item @(pge==pager.CurrentPage ? "active" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-pg="@pge">@pge</a>
+                </li>
+
+
+            }
+            @if (pager.CurrentPage < pager.TotalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-pg="@(pager.CurrentPage+1)">Next</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-pg="@(pager.TotalPages)">Last</a>
+                </li>
+            }
+        </ul>
+    }
+</div>
+<style>
+    .button {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .edit {
+        background-color: #f0ad4e;
+        color: white;
+    }
+
+    .delete {
+        background-color: #d9534f;
+        color: white;
+    }
+
+    .edit:hover {
+        background-color: #ec971f;
+    }
+
+    .delete:hover {
+        background-color: #c9302c;
+    }
+
+</style>
+@section Scripts {
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
+}

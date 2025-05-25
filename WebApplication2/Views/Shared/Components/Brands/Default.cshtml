@@ -1,0 +1,10 @@
+﻿@model IEnumerable<BrandModel>
+
+@foreach(var item in Model)
+{
+    <div class="sidebar-widget-brand">
+        <ul>
+            <li><a  class="selected m-0" asp-action="Index" asp-controller="Brand" asp-route-Slug="@item.Slug"> @item.Name</a></li>
+        </ul>
+    </div>
+}

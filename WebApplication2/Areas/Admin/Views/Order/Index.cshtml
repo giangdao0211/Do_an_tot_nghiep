@@ -1,0 +1,94 @@
+﻿@model IEnumerable<OrderModel>
+@{
+    ViewData["title"] = "Order Listed";
+}
+<h3 style="margin:15px">List Order</h3>
+
+<table class="table" id="myTable">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Order Code</th>
+            <th scope="col">UserName</th>
+            <th scope="col">Order Date</th>
+            <th scope="col">Order Status</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th>#</th>
+                <th scope="row">@item.OrderCode</th>
+                <td>@item.UserName</td>
+                <td>@item.CreatedDate</td>
+                <td>
+                    @if (item.Status == 1)
+                    {
+                        <span class="text text-success">Đơn hàng mới</span>
+                    }
+                    else if (item.Status == 2)
+                    {
+                        <span class="text text-success">Đang vận chuyển</span>
+                    }
+                    else if (item.Status == 3)
+                    {
+                        <span class="text text-success">Đã giao</span>
+                    }
+                    else if (item.Status == 4)
+                    {
+                        <span class="text text-danger">Đã huỷ</span>
+                    }
+                    else if (item.Status == 0)
+                    {
+                        <span class="text text-success">Đơn hàng đã xử lý</span>
+                    }
+                </td>
+                <td style="display:flex">
+                    <a asp-action="ViewOrder" class="button edit" asp-controller="Order" asp-route-ordercode="@item.OrderCode">View</a>
+                    <a asp-action="Delete" class="button delete confirmDeletion" asp-controller="Order" asp-route-Id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<style>
+    .button {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .edit {
+        background-color: #f0ad4e;
+        color: white;
+    }
+
+    .delete {
+        background-color: #d9534f;
+        color: white;
+    }
+
+    .edit:hover {
+        background-color: #ec971f;
+    }
+
+    .delete:hover {
+        background-color: #c9302c;
+    }
+
+</style>
+@section Scripts {
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
+}

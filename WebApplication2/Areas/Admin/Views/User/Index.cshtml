@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewData["title"] = "List User";
+}
+<h3 style="margin:15px">List User</h3>
+<a style="margin:15px" asp-action="Create" asp-controller="User">Add User</a>
+<table class="table" id="myTable">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">User Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Role</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usersWithRoles in Model)
+        {
+            <tr>
+                <th scope="row">@usersWithRoles.User.Id</th>
+                <td>@usersWithRoles.User.UserName</td>
+                <td>@usersWithRoles.User.Email</td>
+                <td>@usersWithRoles.User.PhoneNumber</td>
+                <td>@usersWithRoles.RoleName</td>
+
+
+                <td style="display:flex">
+                    @if(usersWithRoles.User.Id != ViewBag.loggedInUserId)
+                    {
+                        if (usersWithRoles.RoleName != "Admin")
+                        {
+                            <a asp-action="Edit" class="button edit" asp-controller="User" asp-route-Id="@usersWithRoles.User.Id">Edit</a>
+                            <a asp-action="Delete" class="button delete confirmDeletion" asp-controller="User" asp-route-Id="@usersWithRoles.User.Id">Delete</a>
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<style>
+    .button {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .edit {
+        background-color: #f0ad4e;
+        color: white;
+    }
+
+    .delete {
+        background-color: #d9534f;
+        color: white;
+    }
+
+    .edit:hover {
+        background-color: #ec971f;
+    }
+
+    .delete:hover {
+        background-color: #c9302c;
+    }
+
+</style>
+@section Scripts {
+    <script>
+        let table = new DataTable('#myTable');
+    </script>
+}
+

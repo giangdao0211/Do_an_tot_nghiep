@@ -1,0 +1,175 @@
+﻿
+<!-- breadcrumb-area start -->
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 text-center">
+                <h2 class="breadcrumb-title">Single Product</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- breadcrumb-area end -->
+<!-- Product Details Area Start -->
+<div class="product-details-area pt-100px pb-100px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 col-xs-12 mb-lm-30px mb-md-30px mb-sm-30px">
+                <!-- Swiper -->
+                <div class="swiper-container zoom-top">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="img-responsive m-auto" src="~/media/products/@Model.Image" alt="">
+                            <a class="venobox full-preview" data-gall="myGallery" href="~/media/products/@Model.Image">
+                                <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-container mt-20px zoom-thumbs slider-nav-style-1 small-nav">
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-xs-12" data-aos="fade-up" data-aos-delay="200">
+                <div class="product-details-content quickview-content ml-25px">
+                    <h2>@Model.Name</h2>
+                    <div class="pricing-meta">
+                        <ul class="d-flex">
+                            <li class="new-price">Giá: @Model.Price.ToString("#,##0 VNĐ")</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="pro-details-quality">
+                        @if (Model.Quantity > 0)
+                        {
+                            <a asp-action="Add" asp-controller="Cart" asp-route-Id="@Model.Id" class="btn-add-to-cart">
+                                Add To Cart
+                            </a>
+                        }
+                        else
+                        {
+                            <a style="background-color:red" class="btn-add-to-cart">
+                                Hết hàng
+                            </a>
+                        }
+                        <div class="pro-details-compare-wishlist pro-details-wishlist ">
+                            <a href="wishlist.html"><i class="pe-7s-like"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- product details description area start -->
+                <div class="description-review-wrapper">
+                    <div class="description-review-topbar nav">
+                        <button data-bs-toggle="tab" data-bs-target="#des-details2">Information</button>
+                        <button class="active" data-bs-toggle="tab" data-bs-target="#des-details1">Description</button>
+
+                    </div>
+                    <div class="tab-content description-review-bottom">
+                        <div id="des-details2" class="tab-pane">
+                            <div class="product-anotherinfo-wrapper text-start">
+                                <ul>
+                                    <li><span>Ram: </span>@Model.Ram GB</li>
+                                    <li><span>SSD: </span>@Model.Ssd GB</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="des-details1" class="tab-pane active">
+                            <div class="product-description-wrapper">
+                                <p>
+                                    @Model.Description
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- product details description area end -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Product Area Start -->
+<div class="product-area related-product">
+    <div class="container">
+        <!-- Section Title & Tab Start -->
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title text-center m-0">
+                    <h2 class="title">Related Products</h2>
+
+                </div>
+            </div>
+        </div>
+        <!-- Section Title & Tab End -->
+        <div class="row">
+            <div class="col">
+                <div class="new-product-slider swiper-container slider-nav-style-1">
+                    <div class="swiper-wrapper">
+                        @foreach(var relatedProduct in @ViewBag.RelatedProducts as IEnumerable<ProductModel>)
+                        {
+                            <div class="product">
+                                <a asp-action="Details" asp-controller="Product" asp-route-Id="@relatedProduct.Id">
+                                    <span class="badges">
+                                        <span class="new">New</span>
+                                    </span>
+                                    <div class="thumb">
+                                        <div class="image">
+                                            <img src="~/media/products/@relatedProduct.Image" alt="Product" />
+                                            <img class="hover-image" src="~/media/products/@relatedProduct.Image" alt="Product" />
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <span class="category">@relatedProduct.Category</span>
+
+                                        <h5 class="title">
+
+                                            @relatedProduct.Name
+
+                                        </h5>
+                                        <span class="price" style="text-align: left">
+                                            <span class="new">Giá: @relatedProduct.Price.ToString("#,##0 VNĐ")</span>
+                                        </span>
+                                        <span class="price" style="text-align: left">
+                                            <span class="new">Ram: @relatedProduct.Ram GB</span>
+                                        </span>
+                                        <span class="price" style="text-align: left">
+                                            <span class="new">Ổ cứng SSD: @relatedProduct.Ssd GB</span>
+                                        </span>
+                                    </div>
+
+                                </a>
+                              
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Area End -->
+<style>
+    .btn-add-to-cart {
+        display: inline-block; /* Hiển thị như một nút */
+        padding: 12px 20px; /* Tạo khoảng cách bên trong nút */
+        background-color: #28a745; /* Màu nền xanh lá (hoặc tuỳ chọn của bạn) */
+        color: #fff; /* Màu chữ trắng */
+        text-align: center; /* Canh giữa nội dung */
+        text-decoration: none; /* Loại bỏ gạch chân */
+        font-size: 16px; /* Kích thước chữ */
+        font-weight: bold; /* Tăng độ đậm của chữ */
+        border-radius: 6px; /* Bo góc nhẹ */
+        border: 1px solid #28a745; /* Đường viền cùng màu với nền */
+        transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt khi hover */
+        cursor: pointer; /* Con trỏ dạng nút */
+    }
+
+        .btn-add-to-cart:hover {
+            
+            border-color: #1e7e34; /* Đường viền đậm hơn khi hover */
+            text-decoration: none; /* Vẫn giữ không có gạch chân */
+        }
+
+</style>
+
