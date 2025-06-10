@@ -42,12 +42,12 @@
                                             </td>
                                             <td class="product-name"><a href="#">@item.ProductName</a></td>
                                             <td class="product-price-cart"><span class="amount">@item.Price.ToString("#,##0 VNĐ")</span></td>
-                                            <td style="display:flex">
+                                            <td  style="display:flex; margin-top:45px">
                                                 <a   asp-controller="Cart" asp-action="Increase" asp-route-id="@item.ProductId" class="cong">+</a>
                                                 <input class="cart-plus-minus-box" type="text" name="qtybutton" value="@item.Quantity" />
                                                 <a  asp-controller="Cart" asp-action="Decrease" asp-route-id="@item.ProductId" class="cong">-</a>
                                             </td>
-                                            <td class="product-subtotal">@Model.CartItems.Where(x => x.ProductId==item.ProductId).Sum(x => x.Quantity*x.Price).ToString()</td>
+                                            <td class="product-subtotal">@Model.CartItems.Where(x => x.ProductId == item.ProductId).Sum(x => x.Quantity * x.Price).ToString("#,##0 VNĐ")</td>
                                             <td class="product-remove">
                                                 <a asp-controller="Cart" asp-action="Remove" asp-route-id="@item.ProductId"><i class="fa fa-times"></i></a>
                                             </td>
@@ -87,10 +87,7 @@
                         <option value="0">Phường Xã</option>
                     </select>
                 </div>
-                <div class="form-group">
-                    <label>Địa chỉ: </label>
-                    <input  id="price-shipping" class="form-control" />
-                </div>
+                
                 <div class="row">
                 <button style="background-color: cornflowerblue;margin-top:20px" type="button" class="btn btn-default btn-add-shipping">Tính phí ship</button>
                     <h5 style="margin-top:20">Shipping Cost: <span>@Model.ShippingCost.ToString("#,##0")</span></h5>
@@ -109,13 +106,13 @@
                                 <form method="POST" asp-action="CreatePaymentMomo" asp-controller="Payment">
                                     <input type="hidden" name="FullName" value="@User.Identity.Name" />
                                     <input type="hidden" name="Amount" value="@Model.GrandTotal" />
-                                    <input type="hidden" name="OrderId" value="@Guid.NewGuid().ToString()" />
+                                    @* <input type="hidden" name="OrderId" value="@Guid.NewGuid().ToString()" /> *@
 
                                     <input type="hidden" name="OrderInfo" value="Thanh toán đặt hàng qua Momo tại HieuTanStore" />
 
 
                                     <br />
-                                    <button class="momo-button"  type="submit">Pay with MoMo</button>
+                                    <button class="momo-button" name="PayUrl"  type="submit">Pay with MoMo</button>
                                 </form>
 
                             }

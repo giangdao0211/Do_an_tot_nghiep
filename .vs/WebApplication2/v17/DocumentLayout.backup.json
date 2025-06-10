@@ -3,44 +3,80 @@
   "WorkspaceRootPath": "D:\\test\\WebApplication2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\models\\orderinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\orderinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\services\\momo\\imomoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\services\\momo\\imomoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\models\\momo\\momooptionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\momo\\momooptionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\models\\momo\\momoexecuteresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\momo\\momoexecuteresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\services\\momo\\momoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\services\\momo\\momoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\models\\momo\\momocreatepaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\momo\\momocreatepaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\areas\\admin\\views\\order\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\areas\\admin\\views\\order\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\account\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\views\\shared\\_filterproductspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\shared\\_filterproductspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|d:\\test\\webapplication2\\webapplication2\\areas\\admin\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79F1EEA3-AB89-425E-9F6B-EFAD77B6BEA9}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\areas\\admin\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,124 +110,236 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IMomoService.cs",
-              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Services\\Momo\\IMomoService.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Services\\Momo\\IMomoService.cs",
-              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Services\\Momo\\IMomoService.cs",
-              "RelativeToolTip": "WebApplication2\\Services\\Momo\\IMomoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T09:10:21.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MomoOptionModel.cs",
-              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Models\\Momo\\MomoOptionModel.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Models\\Momo\\MomoOptionModel.cs",
-              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Models\\Momo\\MomoOptionModel.cs",
-              "RelativeToolTip": "WebApplication2\\Models\\Momo\\MomoOptionModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T07:36:19.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MomoExecuteResponseModel.cs",
-              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Models\\Momo\\MomoExecuteResponseModel.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Models\\Momo\\MomoExecuteResponseModel.cs",
-              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Models\\Momo\\MomoExecuteResponseModel.cs",
-              "RelativeToolTip": "WebApplication2\\Models\\Momo\\MomoExecuteResponseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:21:23.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderInfo.cs",
-              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Models\\OrderInfo.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Models\\OrderInfo.cs",
-              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Models\\OrderInfo.cs",
-              "RelativeToolTip": "WebApplication2\\Models\\OrderInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T07:55:56.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MomoService.cs",
-              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Services\\Momo\\MomoService.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Services\\Momo\\MomoService.cs",
-              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Services\\Momo\\MomoService.cs",
-              "RelativeToolTip": "WebApplication2\\Services\\Momo\\MomoService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T07:38:29.849Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\PaymentController.cs",
-              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "WebApplication2\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\UserModel.cs",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Models\\UserModel.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T07:26:07.536Z"
+              "WhenOpened": "2025-06-05T13:54:52.472Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAADwv4cAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:53:53.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAJ8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T03:34:47.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication2\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAFsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T03:21:21.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\CheckoutController.cs",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIAwwDQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T08:49:21.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Models\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\OrderDetails.cs",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Models\\OrderDetails.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\OrderDetails.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:36:59.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication2\\Views\\Cart\\Index.cshtml",
               "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Cart\\Index.cshtml",
               "RelativeToolTip": "WebApplication2\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAwwHUAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T07:17:32.406Z"
+              "WhenOpened": "2025-06-05T13:20:40.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MomoCreatePaymentResponseModel.cs",
-              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Models\\Momo\\MomoCreatePaymentResponseModel.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Models\\Momo\\MomoCreatePaymentResponseModel.cs",
-              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Models\\Momo\\MomoCreatePaymentResponseModel.cs",
-              "RelativeToolTip": "WebApplication2\\Models\\Momo\\MomoCreatePaymentResponseModel.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "WebApplication2\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T03:08:55.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T01:21:19.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WebApplication2\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:40:58.146Z"
+              "WhenOpened": "2025-06-06T01:35:11.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication2\\appsettings.json",
-              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\appsettings.json",
-              "RelativeToolTip": "WebApplication2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-20T07:26:35.344Z"
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T01:35:46.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
-              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Program.cs",
-              "RelativeToolTip": "WebApplication2\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "ViewOrder.cshtml",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "RelativeToolTip": "WebApplication2\\Areas\\Admin\\Views\\Order\\ViewOrder.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T08:17:49.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Account\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Account\\Create.cshtml",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Account\\Create.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Account\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T13:56:33.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebApplication2\\Areas\\Admin\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T08:22:49.088Z"
+              "WhenOpened": "2025-06-04T02:36:48.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_FilterProductsPartial.cshtml",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Shared\\_FilterProductsPartial.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Shared\\_FilterProductsPartial.cshtml",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Views\\Shared\\_FilterProductsPartial.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Shared\\_FilterProductsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T03:43:22.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:45:31.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\BrandController.cs",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\BrandController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:46:49.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:46:59.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "ToolTip": "D:\\test\\WebApplication2\\WebApplication2\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "RelativeToolTip": "WebApplication2\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T09:01:19.85Z"
             }
           ]
         }

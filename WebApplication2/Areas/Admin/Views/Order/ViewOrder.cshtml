@@ -1,4 +1,4 @@
-﻿@model IEnumerable<OrderModel>
+﻿@model IEnumerable<OrderDetails>
 @{
     ViewData["title"] = "Order Detail";
 }
@@ -10,8 +10,13 @@
             <th scope="col">Id</th>
             <th scope="col">Order Code</th>
             <th scope="col">UserName</th>
-
-            <th scope="col">Order Date</th>
+            <th scope="col">UserPhone</th>
+            <th scope="col">Address</th>
+            <th scope="col">Product Id</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Total</th>
             <th scope="col">Order Status</th>
 
         </tr>
@@ -24,7 +29,13 @@
                 <th>@item.Id</th>
                 <th scope="row">@item.OrderCode</th>
                 <td>@item.UserName</td>
-                <td>@item.CreatedDate</td>
+                <td>@item.UserPhone</td>
+                <td>Tỉnh An Giang, huyện An Phú, thị trấn An Phú</td>
+                <td>@item.ProductId</td>
+                <td>@item.ProductName</td>
+                <td>@item.Price.ToString("#,##0 VNĐ")</td>
+                <td>@item.Quantity</td>
+                <td>@item.GrandTotal.ToString("#,##0 VNĐ")</td>
                 <td>
                     <select class="form-control select-update-order">
                         <option value="1">Đơn hàng mới</option>
@@ -38,7 +49,9 @@
             </tr>
         }
     </tbody>
+    
 </table>
+<a asp-action="Index">Back to list order</a>
 @section Scripts{
     <script>
         $(document).ready(function(){

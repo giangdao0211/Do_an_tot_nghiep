@@ -153,3 +153,4 @@ D:\test\WebApplication2\WebApplication2\bin\Debug\net8.0\Microsoft.AspNetCore.Id
 D:\test\WebApplication2\WebApplication2\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\test\WebApplication2\WebApplication2\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\test\WebApplication2\WebApplication2\bin\Debug\net8.0\RestSharp.dll
+D:\test\WebApplication2\WebApplication2\obj\Debug\net8.0\WebApplication2.sourcelink.json

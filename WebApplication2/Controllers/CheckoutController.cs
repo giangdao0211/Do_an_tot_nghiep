@@ -4,6 +4,7 @@ using WebApplication2.Models;
 using WebApplication2.Repository;
 using WebApplication2.Areas.Admin.Repository;
 using Microsoft.EntityFrameworkCore;
+using WebApplication2.Services.Momo;
 
 namespace WebApplication2.Controllers
 {
@@ -11,14 +12,17 @@ namespace WebApplication2.Controllers
     {
         private readonly DataContext _dataContext;
         private readonly IEmailSender _emailSender;
-        public CheckoutController(DataContext context, IEmailSender emailSender)
+        private readonly IMomoService _momoService;
+        public CheckoutController(DataContext context, IEmailSender emailSender,IMomoService momoService)
         {
             _dataContext = context;
             _emailSender = emailSender;
+            _momoService = momoService;
         }
-        public async Task<IActionResult> Checkout()
+        public async Task<IActionResult> Checkout(string OrderId)
         {
             var userEmail = User.FindFirstValue(ClaimTypes.Email);
+            var userPhone = User.FindFirstValue(ClaimTypes.OtherPhone);
             if (userEmail == null)
             {
                 return RedirectToAction("Login","Account");
@@ -29,7 +33,15 @@ namespace WebApplication2.Controllers
                 var orderItem = new OrderModel();
                 orderItem.OrderCode = ordercode;
                 orderItem.UserName = userEmail;
-                orderItem.Status = 1;
+                if (OrderId != null)
+                {
+                    orderItem.PaymentMethod = OrderId;
+                }
+                else
+                {
+                    orderItem.PaymentMethod = "COD";
+                }
+                    orderItem.Status = 1;
                 orderItem.CreatedDate = DateTime.Now;
                 _dataContext.Add(orderItem);
                 _dataContext.SaveChanges();
@@ -38,8 +50,10 @@ namespace WebApplication2.Controllers
                 {
                     var orderdetails = new OrderDetails();
                     orderdetails.UserName = userEmail;
+                    //orderdetails.UserPhone = userPhone;
                     orderdetails.OrderCode = ordercode;
                     orderdetails.ProductId = cart.ProductId;
+                    orderdetails.ProductName = cart.ProductName;
                     orderdetails.Price = cart.Price;
                     orderdetails.Quantity = cart.Quantity;
                     //update product quantity
@@ -61,6 +75,30 @@ namespace WebApplication2.Controllers
             }
             return View();
         }
-        
+        [HttpGet]
+        public async Task<IActionResult> PaymentCallBack(OrderInfo model)
+        {
+            var response= _momoService.PaymentExecuteAsync(HttpContext.Request.Query);
+            var requestQuery = HttpContext.Request.Query;
+            if (requestQuery["resultCode"] != 0)
+            {
+                var newMomoInsert = new OrderInfo
+                {
+                    OrderId = requestQuery["orderId"],
+                    FullName = User.FindFirstValue(ClaimTypes.Email),
+                    Amount = double.Parse(requestQuery["Amount"]),
+                    OrderInformation = requestQuery["orderInfo"]
+                };
+                _dataContext.Add(newMomoInsert);
+                await _dataContext.SaveChangesAsync();
+                await Checkout(requestQuery["orderId"]);
+            }
+            else
+            {
+                TempData["error"] = "Thanh toán thất bại, vui lòng thử lại sau.";
+                return RedirectToAction("Index", "Cart");
+            }
+                return View(response);
+        }
     }
 }

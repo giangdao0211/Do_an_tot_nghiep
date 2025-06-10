@@ -133,7 +133,7 @@ namespace WebApplication2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(UserModel user)
         {
-            AppUserModel newUser = new AppUserModel { UserName = user.Username, Email = user.Email };
+            AppUserModel newUser = new AppUserModel { UserName = user.Username, Email = user.Email, PhoneNumber=user.Phonenumber };
             IdentityResult result = await _userManage.CreateAsync(newUser,user.Password);
 
             if (result.Succeeded)

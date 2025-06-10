@@ -21,8 +21,9 @@ namespace WebApplication2.Areas.Admin.Controllers
         }
         public async Task<IActionResult> ViewOrder(string ordercode)
         {
-            var DetailsOrder = await _dataContext.Orders.Where(od => od.OrderCode == ordercode).ToListAsync();
+            var DetailsOrder = await _dataContext.OrderDetails.Where(od => od.OrderCode == ordercode).ToListAsync();
             return View(DetailsOrder);
+
         }
         [HttpPost]
         [Route("UpdateOrder")]

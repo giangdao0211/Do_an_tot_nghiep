@@ -20,5 +20,6 @@ namespace WebApplication2.Repository
         public DbSet<ShippingModel> Shippings { get; set; }
         public DbSet<CouponModel> Coupons { get; set; }
         public DbSet<StatisticalModel> Statistical { get; set; }
+        public DbSet<OrderInfo> OrderInfos { get; set; }
     }
 }

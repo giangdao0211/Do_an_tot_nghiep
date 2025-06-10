@@ -11,5 +11,6 @@ namespace WebApplication2.Models
         public string Password { get; set; }
         [Required(ErrorMessage = "Làm ơn nhập email"),EmailAddress]
         public string Email { get;set; }
+        public string Phonenumber { get; set; }
     }
 }

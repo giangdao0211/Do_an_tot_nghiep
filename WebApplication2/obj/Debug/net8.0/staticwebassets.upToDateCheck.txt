@@ -60,7 +60,7 @@ wwwroot\images\icons\contact-3.png
 wwwroot\images\icons\icon-youtube-play.png
 wwwroot\images\icons\payment.png
 wwwroot\images\logo\footer-logo.png
-wwwroot\images\logo\logo.png
+wwwroot\images\logo\logo1.png
 wwwroot\images\partner\1.png
 wwwroot\images\partner\2.png
 wwwroot\images\partner\3.png

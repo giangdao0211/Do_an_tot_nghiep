@@ -46,7 +46,7 @@
                                     <li><a href="mailto:demo@example.com"><i class="fa fa-envelope-o"></i> demo@example.com</a></li>
                                     @if(User.Identity?.IsAuthenticated ?? false)
                                     {
-                                        <li id="a1" style="color:white"> Hi,@User.Identity.Name
+                                        <li id="a1" style="color:white;margin-bottom:10px"> Hi,@User.Identity.Name
                                             <ul class="sub-menu">
                                                 
                                                 <li><a style="color:black" id="a3" asp-action="Logout" asp-controller="Account">Logout</a></li>
@@ -71,7 +71,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-3 col">
                             <div class="header-logo">
-                                <a href="index-2.html"><img src="~/images/logo/logo.png" alt="Site Logo" /></a>
+                                <a asp-action="Index" asp-controller="Home"><img src="~/images/logo/logo1.png" alt="Site Logo" /></a>
                             </div>
                         </div>
                         <div class="col-lg-6 d-none d-lg-block">
@@ -91,7 +91,7 @@
                                 <!-- Single Wedge End -->
                                 <a href="#offcanvas-cart" class="header-action-btn header-action-btn-cart offcanvas-toggle pr-0">
                                     <i class="pe-7s-shopbag"></i>
-                                    <span class="header-action-num">01</span>
+                                    
                                     <!-- <span class="cart-amount">€30.00</span> -->
                                 </a>
                                 <a href="#offcanvas-mobile-menu" class="header-action-btn header-action-btn-menu offcanvas-toggle d-lg-none">
@@ -168,7 +168,7 @@
                 <div class="foot">
                     <div class="buttons mt-30px">
                         <a asp-controller="Cart" asp-action="Index"  class="btn btn-dark btn-hover-primary mb-30px">view cart</a>
-                        <a asp-controller="Cart" asp-action="Checkout" class="btn btn-outline-dark current-btn">checkout</a>
+                        
                     </div>
                 </div>
             </div>
@@ -186,39 +186,17 @@
                             <div class="col-md-6 col-lg-3 mb-md-30px mb-lm-30px">
                                 <div class="single-wedge">
                                     <div class="footer-logo">
-                                        <a href="index.html"><img src="~/images/logo/footer-logo.png" alt=""></a>
+                                        <a href="index.html"><img src="~/images/logo/logo1.png" alt=""></a>
                                     </div>
                                     <div class="footer-links">
                                         <!-- News letter area -->
-                                        <p class="address">Address: Your Address Goes Here.</p>
+                                        <p >Address: Số 17, Tân Triều, Hà Nội.</p>
                                         <p class="phone">Phone/Fax:<a href="tel:0123456789"> 0123456789</a></p>
                                         <p class="mail">Email:<a href="mailto:demo@example.com"> demo@example.com</a></p>
-                                        <p class="mail"><a href="https://demo@example.com/"> demo@example.com</a></p>
+                                        
                                         <!-- News letter area  End -->
                                     </div>
-                                    <ul class="link-follow">
-                                        <li>
-                                            <a class="m-0" title="Twitter" target="_blank" rel="noopener noreferrer" href="#">
-                                                <i class="fa fa-facebook"
-                                                   aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a title="Tumblr" target="_blank" rel="noopener noreferrer" href="#">
-                                                <i class="fa fa-tumblr" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a title="Facebook" target="_blank" rel="noopener noreferrer" href="#">
-                                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a title="Instagram" target="_blank" rel="noopener noreferrer" href="#">
-                                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    
                                 </div>
                             </div>
                             <!-- End single blog -->
